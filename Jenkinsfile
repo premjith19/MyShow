@@ -19,4 +19,16 @@ pipeline {
          }
       }
    }
+   
+   post{
+      always{
+         echo 'Compulsory Build'
+      }
+      success{
+         echo 'Successful Build'
+      }
+      failure{
+         echo 'Failure Build'
+      }
+   }
 }
