@@ -24,8 +24,6 @@ echo "${GIT_PREVIOUS_COMMIT}"
 echo "${GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
 echo "${GIT_BRANCH}"
 echo "${GIT_URL}"
-echo "${GIT_AUTHOR_NAME}"
-echo "${GIT_AUTHOR_EMAIL}"
 echo "${CHANGES,  format="%a"}"
 
 
