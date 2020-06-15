@@ -27,10 +27,6 @@ echo "${GIT_PREVIOUS_COMMIT}"
 echo "${GIT_PREVIOUS_SUCCESSFUL_COMMIT}"
 echo "${GIT_BRANCH}"
 echo "${GIT_URL}"
-
-
-
-            
          }
       }
       
