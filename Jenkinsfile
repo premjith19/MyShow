@@ -5,21 +5,6 @@ pipeline {
       stage('Build') {
          steps {
             echo 'Build Stage'
-            
-            
-echo "${CHANGE_ID}"
-echo "${CHANGE_URL}"
-echo "${CHANGE_TITLE}"
-echo "${CHANGE_AUTHOR}"
-echo "${CHANGE_AUTHOR_DISPLAY_NAME}"
-echo "${CHANGE_AUTHOR_EMAIL}"
-echo "${CHANGE_TARGET}"
-echo "${CHANGE_BRANCH}"
-echo "${CHANGE_FORK}"
-echo "${TAG_NAME}"
-echo "${TAG_TIMESTAMP}"
-echo "${TAG_UNIXTIME}"
-echo "${TAG_DATE}"
 echo "${BUILD_NUMBER}"
 echo "${BUILD_ID}"
 echo "${BUILD_DISPLAY_NAME}"
