@@ -5,6 +5,8 @@ pipeline {
       stage('Build') {
          steps {
             echo 'Build Stage'
+            echo "Build ID is ${BUILD_ID}"
+            echo "Build Number is ${BUILD_NUMBER}"
          }
       }
       
